@@ -1,17 +1,17 @@
 body {
+    background-color: rgb(250, 247, 248);
     background-image: url(links/bg-site.jpg);
-    background-color: rgb(255, 255, 255);
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-size: cover;
   }
   h1 {
-    color: rgb(255, 255, 51);
-    margin-left: 20px;
-    font-size: 250px;
-    font-family: "Climate Crisis", sans-serif;
-    margin-bottom: 50px;
-    margin-top: 100px;
-  }
+  color: rgb(0, 0, 255);
+  margin-left: 20px;
+  font-size: 250px;
+  font-family: "Climate Crisis", sans-serif;
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-kerning: none;
+}
   h2 {
     color: rgb(0, 0, 255);
     font-weight: bolder;
@@ -27,7 +27,7 @@ body {
   }
 .tumblr {
    grid-row-start: 1;
-   position:relative; left:800px; margin-top: 30px;
+   position:relative; left:1350px; margin-top: 0;
    
 
 
@@ -75,33 +75,4 @@ body {
       text-align: left;
       margin-left: 60px;
     }
-    .wrapper {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      grid-auto-rows: minmax(100px, auto);
-    }
-    .one {
-      grid-column: 1 / 3;
-      grid-row: 1;
-    }
-    .two {
-      grid-column: 2 / 4;
-      grid-row: 1 / 3;
-    }
-    .three {
-      grid-column: 1;
-      grid-row: 2 / 5;
-    }
-    .four {
-      grid-column: 3;
-      grid-row: 3;
-    }
-    .five {
-      grid-column: 2;
-      grid-row: 4;
-    }
-    .six {
-      grid-column: 3;
-      grid-row: 4;
-    }
+    
