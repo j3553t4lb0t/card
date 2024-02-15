@@ -1,16 +1,19 @@
 body {
-    background-color: rgb(250, 247, 248);
+  height: 100%;
+    background-color: rgb(250, 248, 247);
     background-image: url(links/bg-site.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
   }
   h1 {
-  color: rgb(0, 0, 255);
-  margin-left: 20px;
-  font-size: 250px;
-  font-family: "Climate Crisis", sans-serif;
-  margin-bottom: 50px;
-  margin-top: 0;
-  font-kerning: none;
+   color: rgb(0, 0, 255);
+   margin-left: 35px;
+   font-size: 275px;
+   font-family: "Climate Crisis", sans-serif;
+   font-weight: 200;
+   margin-bottom: 50px;
+   margin-top: 80px;
+   letter-spacing: 0px;  
 }
   h2 {
     color: rgb(0, 0, 255);
@@ -19,36 +22,27 @@ body {
     font-family: "Climate Crisis", sans-serif;
     text-align: justify;
     margin-left: 20px; 
-    grid-column-start: 1;
-    grid-row-start: 1;
-    position:relative; margin-top: 30px;
-
-
-  }
-.tumblr {
-   grid-row-start: 1;
-   position:relative; left:1350px; margin-top: 0;
-   
-
-
+    position:relative; 
+    margin-top: 25px;
+    margin-bottom: 0;
   }
 .left {
     background-color: rgb(250, 248, 247);
     width: 450px;
     height: 611px;
-    margin: 0 auto;
     border: 2px;
     border-style:solid;
     border-color: rgb(0, 0, 255);
+    position:relative;
+    left: 1050px;
+    margin-top: 80px;
   }
-
     h3 {
       color: rgb(0, 0, 255);
       font-family: "Climate Crisis", sans-serif;
       font-size: 30px;
       text-align: left;
       margin-left: 40px;
-
     }
     h4 {
       color: rgb(0, 0, 255);
@@ -56,7 +50,6 @@ body {
       font-size: 20px;
       text-align: left;
       line-height: 50px;
-      
     }
     ul {
       list-style: none;
@@ -75,4 +68,29 @@ body {
       text-align: left;
       margin-left: 60px;
     }
+      .tumblr {
+        position:relative; 
+        left:1450px; 
+        top: 20px;
+      }
+       .linkedin {
+         position:relative; 
+         left:1530px; 
+         top: 20px;
+        }
+       .ig {
+          position:relative; 
+          left:1610px;
+          top: 30px; 
+       }
+
+       .navbar {
+        width: 1720px;
+        height: 100px;
+        background-color:rgb(250, 248, 247);
+        padding: left 0 top 0;
+        margin-left: 0;
+        position:fixed;
+        top: 0px;
+       }
     
