@@ -100,4 +100,8 @@ h6 {
   width: 1720px;
   height: 450px;
 }
-    
+.birb {
+  width: 200px;
+  height: 200px;
+  border: none;
+}    
