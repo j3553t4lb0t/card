@@ -51,21 +51,20 @@ h5 {
     margin-left: 40px;
   }
 .tumblr {
-    position:relative; 
+    position:fixed; 
     left:1450px; 
-    top: 23px;
+    top: 25px;
   }
 .linkedin {
-    position:relative; 
+    position:fixed; 
     left:1530px;
-    top: -20px 
+    top: 25px 
   }
 .ig {
-    position:relative; 
+    position:fixed; 
     left:1610px;
-    top: -65px 
+    top: 25px; 
   }
-
 .navbar {
     width: 1720px;
     height: 100px;
@@ -74,6 +73,7 @@ h5 {
     margin-left: 0;
     position:fixed;
     top: 0px;
+    align-items:center;
   }
 .left {
     background-color: rgb(250, 248, 247);
