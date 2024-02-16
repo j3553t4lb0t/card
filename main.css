@@ -1,5 +1,5 @@
 body {
-  height: 100%;
+    height:fit-content;
     background-color: rgb(250, 248, 247);
     background-image: url(links/bg-site.jpg);
     background-size: cover;
@@ -14,7 +14,7 @@ body {
    margin-bottom: 50px;
    margin-top: 80px;
    letter-spacing: 0px;  
-}
+  }
   h2 {
     color: rgb(0, 0, 255);
     font-weight: bolder;
@@ -37,60 +37,63 @@ body {
     left: 1050px;
     margin-top: 80px;
   }
-    h3 {
-      color: rgb(0, 0, 255);
-      font-family: "Climate Crisis", sans-serif;
-      font-size: 30px;
-      text-align: left;
-      margin-left: 40px;
-    }
-    h4 {
-      color: rgb(0, 0, 255);
-      font-family: "orbitron", sans-serif;
-      font-size: 20px;
-      text-align: left;
-      line-height: 50px;
-    }
-    ul {
-      list-style: none;
-    }
-    h5 {
-      color: rgb(0, 0, 255);
-      font-family: "orbitron", sans-serif;
-      font-size: 20px;
-      text-align: left;
-      margin-left: 40px;
-    }
-    h6 {
-      color:rgb(0, 0, 255);
-      font-family: "Orbitron", sans-serif;
-      font-size: 10px;
-      text-align: left;
-      margin-left: 60px;
-    }
-      .tumblr {
-        position:relative; 
-        left:1450px; 
-        top: 20px;
-      }
-       .linkedin {
-         position:relative; 
-         left:1530px; 
-         top: 20px;
-        }
-       .ig {
-          position:relative; 
-          left:1610px;
-          top: 30px; 
-       }
+h3 {
+    color: rgb(0, 0, 255);
+    font-family: "Climate Crisis", sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 40px;
+  }
+h4 {
+    color: rgb(0, 0, 255);
+    font-family: "orbitron", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    line-height: 50px;
+  }
+ul {
+    list-style: none;
+  }
+h5 {
+    color: rgb(0, 0, 255);
+    font-family: "orbitron", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+  }
+h6 {
+    color:rgb(0, 0, 255);
+    font-family: "Orbitron", sans-serif;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 60px;
+  }
+.tumblr {
+    position:relative; 
+    left:1450px; 
+    top: 20px;
+  }
+.linkedin {
+    position:relative; 
+    left:1530px; 
+    top: 20px;
+  }
+.ig {
+    position:relative; 
+    left:1610px;
+    top: 30px; 
+  }
 
-       .navbar {
-        width: 1720px;
-        height: 100px;
-        background-color:rgb(250, 248, 247);
-        padding: left 0 top 0;
-        margin-left: 0;
-        position:fixed;
-        top: 0px;
-       }
+.navbar {
+    width: 1720px;
+    height: 100px;
+    background-color:rgb(250, 248, 247);
+    padding: left 0 top 0;
+    margin-left: 0;
+    position:fixed;
+    top: 0px;
+  }
+.cont {
+  
+}
     
